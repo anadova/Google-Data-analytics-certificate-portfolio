@@ -7,7 +7,7 @@ As the Data Analytics course is in spanish, also is the case study.
 Caso práctico 1: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
 
 
-Introducción
+Introducción\\
 Bienvenido al caso práctico del análisis de bicicletas compartidas Cyclistic. En este caso práctico, realizarás muchas tareas del mundo real, típicas de un analista de datos júnior. Trabajarás para una empresa ficticia llamada Cyclistic y conocerás a diferentes personajes y miembros del equipo. Para responder a las preguntas clave de la empresa, seguirás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. En este proceso, las tablas del mapa de ruta de caso práctico, incluidas las preguntas orientativas y las tareas clave, te ayudarán a mantenerte en el camino correcto.
 
 Al final de esta lección, tendrás un caso práctico listo para el portfolio. Descarga el paquete y consulta los detalles de este caso práctico en cualquier momento. Así, cuando empieces a buscar trabajo, tu caso práctico será una forma tangible de demostrar tus conocimientos y habilidades a los posibles empleadores.
