@@ -4,24 +4,27 @@ As the Data Analytics course is in spanish, also is the case study.
 
 
 
-Caso práctico 1: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
+# Caso práctico 1: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
 
+# Introducción
 
-Introducción\n
 Bienvenido al caso práctico del análisis de bicicletas compartidas Cyclistic. En este caso práctico, realizarás muchas tareas del mundo real, típicas de un analista de datos júnior. Trabajarás para una empresa ficticia llamada Cyclistic y conocerás a diferentes personajes y miembros del equipo. Para responder a las preguntas clave de la empresa, seguirás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. En este proceso, las tablas del mapa de ruta de caso práctico, incluidas las preguntas orientativas y las tareas clave, te ayudarán a mantenerte en el camino correcto.
 
 Al final de esta lección, tendrás un caso práctico listo para el portfolio. Descarga el paquete y consulta los detalles de este caso práctico en cualquier momento. Así, cuando empieces a buscar trabajo, tu caso práctico será una forma tangible de demostrar tus conocimientos y habilidades a los posibles empleadores.
 
 
-Escenario
+# Escenario
 Eres un analista de datos júnior que trabaja en el equipo de analistas de marketing de Cyclistic, una empresa de bicicletas compartidas de Chicago. La directora de marketing cree que el éxito futuro de la empresa depende de maximizar la cantidad de membresías anuales. Por lo tanto, tu equipo quiere entender qué diferencias existen en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. A través de estos conocimientos, tu equipo diseñará una nueva estrategia de marketing para convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, antes de eso, los ejecutivos de Cyclistic deben aprobar tus recomendaciones; por eso, debes respaldar tu propuesta con una visión convincente de los datos y visualizaciones profesionales de los mismos.
 
 
 Personajes y equipos
-Cyclistic: Un programa de bicicletas compartidas que incluye 5,800 bicicletas y 600 estaciones. Cyclistic se destaca por ofrecer también bicicletas reclinadas, triciclos manuales y bicicletas de carga que ofrecen un uso más inclusivo de las bicicletas compartidas para las personas con discapacidad y los ciclistas que no pueden utilizar una bicicleta estándar de dos ruedas. La mayoría de los ciclistas eligen las bicicletas tradicionales, alrededor de un 8% de los ciclistas usan las opciones asistidas. Los usuarios de Cyclistic son más propensos a utilizar la bicicleta para recreación, pero alrededor del 30% la utiliza para ir al trabajo cada día.
-Lily Moreno: La directora de marketing y tu gerente. Moreno es responsable del desarrollo de campañas e iniciativas para promover el programa de bicicletas compartidas. Las campañas pueden incluir correo electrónico, redes sociales y otros canales.
-Equipo de análisis computacional de datos de marketing de Cyclistic: Un equipo de analistas de datos que se encargan de recopilar, analizar e informar datos que ayudan a conducir la estrategia de marketing de Cyclistic. Te incorporaste a este equipo hace seis meses y te has dedicado no solo a conocer la misión y las metas de negocios de Cyclistic, sino también a ver cómo puedes ayudar a Cyclistic a lograrlo, desde tu posición de analista de datos júnior.
-Equipo ejecutivo de Cyclistic: El equipo ejecutivo, sumamente detallista, decidirá si aprueba el programa de marketing recomendado.
+- Cyclistic: Un programa de bicicletas compartidas que incluye 5,800 bicicletas y 600 estaciones. Cyclistic se destaca por ofrecer también bicicletas reclinadas, triciclos manuales y bicicletas de carga que ofrecen un uso más inclusivo de las bicicletas compartidas para las personas con discapacidad y los ciclistas que no pueden utilizar una bicicleta estándar de dos ruedas. La mayoría de los ciclistas eligen las bicicletas tradicionales, alrededor de un 8% de los ciclistas usan las opciones asistidas. Los usuarios de Cyclistic son más propensos a utilizar la bicicleta para recreación, pero alrededor del 30% la utiliza para ir al trabajo cada día.
+
+- Lily Moreno: La directora de marketing y tu gerente. Moreno es responsable del desarrollo de campañas e iniciativas para promover el programa de bicicletas compartidas. Las campañas pueden incluir correo electrónico, redes sociales y otros canales.
+
+- Equipo de análisis computacional de datos de marketing de Cyclistic: Un equipo de analistas de datos que se encargan de recopilar, analizar e informar datos que ayudan a conducir la estrategia de marketing de Cyclistic. Te incorporaste a este equipo hace seis meses y te has dedicado no solo a conocer la misión y las metas de negocios de Cyclistic, sino también a ver cómo puedes ayudar a Cyclistic a lograrlo, desde tu posición de analista de datos júnior.
+
+- Equipo ejecutivo de Cyclistic: El equipo ejecutivo, sumamente detallista, decidirá si aprueba el programa de marketing recomendado.
 
 
 Acerca de la empresa
@@ -33,7 +36,7 @@ Los analistas financieros de Cyclistic llegaron a la conclusión de que los miem
 
 Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas a convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, para hacer eso, el equipo de analistas de marketing necesita entender mejor cómo difieren los miembros anuales y los ciclistas ocasionales, por qué los ciclistas ocasionales comprarían una membresía y cómo los medios digitales podrían afectar sus tácticas de marketing. Moreno y su equipo están interesados en analizar los datos históricos de viajes en bicicleta de Cyclistic para identificar tendencias.
 
-Preguntar
+# Preguntar
 Tres preguntas guiarán el futuro programa de marketing:
 ¿En qué se diferencian los socios anuales y los ciclistas ocasionales con respecto al uso de las bicicletas de Cyclistic?
 ¿Por qué los ciclistas ocasionales comprarían membresías anuales de Cyclistic?
@@ -66,8 +69,8 @@ Una instrucción clara de la tarea empresarial
 
 
 
-Preparar
-Usarás los datos históricos de los viajes de Cyclistic para analizar e identificar tendencias. Descarga los últimos 12 meses de datos de viajes de Cyclistic  aquí. (Nota: Los conjuntos de datos tienen un nombre diferente porque Cyclistic es una empresa ficticia. A los fines de este caso práctico, los conjuntos de datos son apropiados y te permitirán responder las preguntas de la empresa. Los datos han sido proporcionados por Motivate International Inc. bajo esta licencia.) Estos son datos públicos que puedes usar para explorar cómo difieren los tipos de clientes que usan las bicicletas Cyclistic. Sin embargo, ten en cuenta que, por cuestiones de privacidad de los datos, se te prohíbe usar información de identificación personal de los ciclistas. Esto significa que no podrás conectar las compras de pases con los números de tarjetas de crédito para determinar si los ciclistas ocasionales viven en el área de servicio de Cyclistic o si compraron varios pases de un solo viaje.
+# Preparar
+Usarás los datos históricos de los viajes de Cyclistic para analizar e identificar tendencias. Datos últimos 12 meses de viajes de Cyclistic  aquí https://divvy-tripdata.s3.amazonaws.com/index.html. (Nota: Estos son datos públicos que puedes usar para explorar cómo difieren los tipos de clientes que usan las bicicletas Cyclistic. Sin embargo, ten en cuenta que, por cuestiones de privacidad de los datos, se te prohíbe usar información de identificación personal de los ciclistas. Esto significa que no podrás conectar las compras de pases con los números de tarjetas de crédito para determinar si los ciclistas ocasionales viven en el área de servicio de Cyclistic o si compraron varios pases de un solo viaje.)
 
 Ahora, prepara tus datos para el análisis usando el siguiente mapa de ruta de caso práctico como guía:
 
@@ -94,7 +97,7 @@ Una descripción de todas las fuentes de datos utilizadas
 
 
 
-Procesar
+# Procesar
 Ahora, procesa tus datos para el análisis usando como guía el siguiente mapa de ruta de caso práctico:
 
 Mapa de ruta de caso práctico - Procesar
@@ -160,10 +163,7 @@ Calcular la media de ride_length
 Calcular el máximo de ride_length
 Calcular el modo de day_of_week
 Crear una tabla dinámica para calcular y visualizar los datos rápidamente. Opciones:
-Calcular el promedio de ride_length para miembros y para ciclistas ocasionales. Probar rows = member_casual; Values = Average
-
-
-of ride_length.
+Calcular el promedio de ride_length para miembros y para ciclistas ocasionales. Probar rows = member_casual; Values = Average of ride_length.
 Calcular el promedio de ride_length para usuarios por day_of_week. Probar columns = day_of_week; Rows = member_casual; Values = Average of ride_length.
 Calcular el número de viajes para usuarios por day_of_week sumando el recuento de trip_id a Values.
 Abrir otro archivo y realizar los mismos pasos de análisis descriptivo. Explorar diferentes temporadas para hacer algunas observaciones iniciales.
@@ -187,7 +187,7 @@ Realiza un análisis descriptivo.
 Exporta un archivo de resumen para su posterior análisis.
 
 
-Compartir
+# Compartir
 Como ya has realizado tu análisis y obtenido algunos conocimientos sobre tus datos, ahora crea las visualizaciones para compartir tus hallazgos. Moreno te recordó que los datos deben ser sofisticados y bien pulidos para poder comunicarse efectivamente al equipo ejecutivo. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Compartir
@@ -210,14 +210,12 @@ Visualizaciones de respaldo y hallazgos clave
 Sigue estos pasos:
 Toma una hoja de papel y una lapicera y bosqueja algunas ideas sobre cómo visualizarás los datos.
 Cuando ya hayas elegido una forma visual, abre la herramienta que prefieras y crea tu visualización. Usa un software para presentaciones, por ejemplo,
-
-
 PowerPoint o Google Slides; tu programa de hojas de cálculo; Tableau o R.
 Crea tu visualización de datos, recuerda que se debe usar el contraste para captar la atención de la audiencia y dirigirla hacia los conceptos más importantes. Usa principios artísticos que incluyan el tamaño, el color y la forma.
 Garantiza un significado claro mediante el uso adecuado de elementos comunes, por ejemplo, títulos, subtítulos y etiquetas.
 Perfecciona la visualización de tus datos mediante una especial atención a los detalles.
 
-Actuar
+# Actuar
 Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que Moreno te pidió que crearas, incluso las tres recomendaciones principales que se basan en tu análisis. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Actuar
