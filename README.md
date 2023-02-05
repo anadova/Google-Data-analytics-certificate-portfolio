@@ -13,7 +13,7 @@ Bienvenido al caso práctico del análisis de bicicletas compartidas Cyclistic. 
 Al final de esta lección, tendrás un caso práctico listo para el portfolio. Descarga el paquete y consulta los detalles de este caso práctico en cualquier momento. Así, cuando empieces a buscar trabajo, tu caso práctico será una forma tangible de demostrar tus conocimientos y habilidades a los posibles empleadores.
 
 
-# Escenario
+## Escenario
 Eres un analista de datos júnior que trabaja en el equipo de analistas de marketing de Cyclistic, una empresa de bicicletas compartidas de Chicago. La directora de marketing cree que el éxito futuro de la empresa depende de maximizar la cantidad de membresías anuales. Por lo tanto, tu equipo quiere entender qué diferencias existen en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. A través de estos conocimientos, tu equipo diseñará una nueva estrategia de marketing para convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, antes de eso, los ejecutivos de Cyclistic deben aprobar tus recomendaciones; por eso, debes respaldar tu propuesta con una visión convincente de los datos y visualizaciones profesionales de los mismos.
 
 
@@ -36,7 +36,7 @@ Los analistas financieros de Cyclistic llegaron a la conclusión de que los miem
 
 Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas a convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, para hacer eso, el equipo de analistas de marketing necesita entender mejor cómo difieren los miembros anuales y los ciclistas ocasionales, por qué los ciclistas ocasionales comprarían una membresía y cómo los medios digitales podrían afectar sus tácticas de marketing. Moreno y su equipo están interesados en analizar los datos históricos de viajes en bicicleta de Cyclistic para identificar tendencias.
 
-# Preguntar
+## Preguntar
 Tres preguntas guiarán el futuro programa de marketing:
 ¿En qué se diferencian los socios anuales y los ciclistas ocasionales con respecto al uso de las bicicletas de Cyclistic?
 ¿Por qué los ciclistas ocasionales comprarían membresías anuales de Cyclistic?
@@ -67,9 +67,7 @@ Entregable
 Una instrucción clara de la tarea empresarial
 
 
-
-
-# Preparar
+## Preparar
 Usarás los datos históricos de los viajes de Cyclistic para analizar e identificar tendencias. Datos últimos 12 meses de viajes de Cyclistic  aquí https://divvy-tripdata.s3.amazonaws.com/index.html. (Nota: Estos son datos públicos que puedes usar para explorar cómo difieren los tipos de clientes que usan las bicicletas Cyclistic. Sin embargo, ten en cuenta que, por cuestiones de privacidad de los datos, se te prohíbe usar información de identificación personal de los ciclistas. Esto significa que no podrás conectar las compras de pases con los números de tarjetas de crédito para determinar si los ciclistas ocasionales viven en el área de servicio de Cyclistic o si compraron varios pases de un solo viaje.)
 
 Ahora, prepara tus datos para el análisis usando el siguiente mapa de ruta de caso práctico como guía:
@@ -88,16 +86,12 @@ Descarga los datos y almacénalos adecuadamente.
 Identifica cómo están organizados.
 Ordena y filtra los datos.
 
-
-
-
 4. Determina la credibilidad de los datos.
 Entregable
 Una descripción de todas las fuentes de datos utilizadas
 
 
-
-# Procesar
+## Procesar
 Ahora, procesa tus datos para el análisis usando como guía el siguiente mapa de ruta de caso práctico:
 
 Mapa de ruta de caso práctico - Procesar
@@ -115,9 +109,6 @@ Documenta el proceso de limpieza.
 Entregable
 Documentación de todas las limpiezas y manipulaciones de datos
 
-
-
-
 Sigue estos pasos:
 Descarga los últimos 12 meses de datos de viajes de Cyclistic.
 Descomprime los archivos.
@@ -132,7 +123,7 @@ Avanza al paso de análisis.
 
 Si quieres, sigue trabajando con los datos para familiarizarte mejor y, tal vez, incluso identificar nuevos enfoques para responder a las preguntas empresariales.
 
-Analizar
+## Analizar
 Ahora que tus datos están almacenados adecuadamente y listos para el análisis, empieza a ponerlos en funcionamiento. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Analizar
@@ -187,7 +178,7 @@ Realiza un análisis descriptivo.
 Exporta un archivo de resumen para su posterior análisis.
 
 
-# Compartir
+## Compartir
 Como ya has realizado tu análisis y obtenido algunos conocimientos sobre tus datos, ahora crea las visualizaciones para compartir tus hallazgos. Moreno te recordó que los datos deben ser sofisticados y bien pulidos para poder comunicarse efectivamente al equipo ejecutivo. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Compartir
@@ -215,7 +206,7 @@ Crea tu visualización de datos, recuerda que se debe usar el contraste para cap
 Garantiza un significado claro mediante el uso adecuado de elementos comunes, por ejemplo, títulos, subtítulos y etiquetas.
 Perfecciona la visualización de tus datos mediante una especial atención a los detalles.
 
-# Actuar
+## Actuar
 Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que Moreno te pidió que crearas, incluso las tres recomendaciones principales que se basan en tu análisis. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Actuar
