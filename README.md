@@ -4,20 +4,7 @@ As the Data Analytics course is in spanish, also is the case study.
 
 
 
-Caso práctico 1
-Caso práctico: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
-
-
-
-
-
-
-
-
-
-
-
-
+Caso práctico 1: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
 
 
 Introducción
