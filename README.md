@@ -10,8 +10,6 @@ As the Data Analytics course is in spanish, also is the case study.
 
 Bienvenido al caso práctico del análisis de bicicletas compartidas Cyclistic. En este caso práctico, realizarás muchas tareas del mundo real, típicas de un analista de datos júnior. Trabajarás para una empresa ficticia llamada Cyclistic y conocerás a diferentes personajes y miembros del equipo. Para responder a las preguntas clave de la empresa, seguirás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. En este proceso, las tablas del mapa de ruta de caso práctico, incluidas las preguntas orientativas y las tareas clave, te ayudarán a mantenerte en el camino correcto.
 
-Al final de esta lección, tendrás un caso práctico listo para el portfolio. Descarga el paquete y consulta los detalles de este caso práctico en cualquier momento. Así, cuando empieces a buscar trabajo, tu caso práctico será una forma tangible de demostrar tus conocimientos y habilidades a los posibles empleadores.
-
 
 ## Escenario
 Eres un analista de datos júnior que trabaja en el equipo de analistas de marketing de Cyclistic, una empresa de bicicletas compartidas de Chicago. La directora de marketing cree que el éxito futuro de la empresa depende de maximizar la cantidad de membresías anuales. Por lo tanto, tu equipo quiere entender qué diferencias existen en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. A través de estos conocimientos, tu equipo diseñará una nueva estrategia de marketing para convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, antes de eso, los ejecutivos de Cyclistic deben aprobar tus recomendaciones; por eso, debes respaldar tu propuesta con una visión convincente de los datos y visualizaciones profesionales de los mismos.
@@ -44,70 +42,19 @@ Tres preguntas guiarán el futuro programa de marketing:
 
 
 
-Moreno te asignó la primera pregunta por responder: ¿En qué se diferencian los socios anuales y los ciclistas ocasionales con respecto al uso de las bicicletas de Cyclistic?
-
-Crearás un informe con los siguientes entregables:
-Una instrucción clara de la tarea empresarial
-Una descripción de todas las fuentes de datos utilizadas
-Documentación de todas las limpiezas y manipulaciones de datos
-Un resumen de tu análisis
-Visualizaciones de respaldo y hallazgos clave
-Las tres recomendaciones más importantes basadas en tu análisis
-
-Usa el siguiente mapa de ruta de caso práctico como guía. Nota: Completar este caso práctico en una semana es una buena meta.
-
-Mapa de ruta de caso práctico - Preguntar
-Preguntas orientativas
-¿Cuál es el problema que intentas resolver?
-¿Cómo tus conocimientos pueden impulsar las decisiones empresariales?
-Tareas clave
-Identificar la tarea empresarial
-Considerar a los interesados clave
-Entregable
-Una instrucción clara de la tarea empresarial
-
-
 ## Preparar
 Usarás los datos históricos de los viajes de Cyclistic para analizar e identificar tendencias. Datos últimos 12 meses de viajes de Cyclistic  aquí https://divvy-tripdata.s3.amazonaws.com/index.html. (Nota: Estos son datos públicos que puedes usar para explorar cómo difieren los tipos de clientes que usan las bicicletas Cyclistic. Sin embargo, ten en cuenta que, por cuestiones de privacidad de los datos, se te prohíbe usar información de identificación personal de los ciclistas. Esto significa que no podrás conectar las compras de pases con los números de tarjetas de crédito para determinar si los ciclistas ocasionales viven en el área de servicio de Cyclistic o si compraron varios pases de un solo viaje.)
 
-Ahora, prepara tus datos para el análisis usando el siguiente mapa de ruta de caso práctico como guía:
-
-Mapa de ruta de caso práctico - Preparar
-Preguntas orientativas
-¿Dónde se ubican tus datos?
-¿Cómo están organizados los datos?
-¿Hay problemas con el sesgo o la credibilidad de estos datos? ¿Tus datos son confiables, originales, integrales, actuales y citados (ROCCC)?
-¿Cómo estás abordando la autorización, la privacidad, la seguridad y la accesibilidad?
-¿Cómo verificaste la integridad de los datos?
-¿De qué manera te ayuda a responder tu pregunta?
-¿Existe algún problema con los datos?
-Tareas clave
-Descarga los datos y almacénalos adecuadamente.
-Identifica cómo están organizados.
-Ordena y filtra los datos.
-
-4. Determina la credibilidad de los datos.
-Entregable
-Una descripción de todas las fuentes de datos utilizadas
 
 
 ## Procesar
 Ahora, procesa tus datos para el análisis usando como guía el siguiente mapa de ruta de caso práctico:
 
-Mapa de ruta de caso práctico - Procesar
-Preguntas orientativas
-¿Qué herramientas eliges y por qué?
-¿Has garantizado la integridad de los datos?
-¿Qué pasos seguiste para garantizar que tus datos están limpios?
-¿Cómo puedes verificar que tus datos están limpios y listos para analizar?
-¿Documentaste tu proceso de limpieza para poder revisar y compartir estos resultados?
 Tareas clave
 Verifica si hay errores en los datos.
 Elige tus herramientas.
 Transforma los datos para que puedas trabajar con ellos eficazmente.
 Documenta el proceso de limpieza.
-Entregable
-Documentación de todas las limpiezas y manipulaciones de datos
 
 Sigue estos pasos:
 Descarga los últimos 12 meses de datos de viajes de Cyclistic.
@@ -121,13 +68,9 @@ Abre tu hoja de cálculo y crea una columna que se llame “ride_length”. Calc
 Crea una columna llamada “day_of_week” y calcula el día de la semana en el que empezó cada viaje mediante el comando “WEEKDAY” (por ejemplo, =WEEKDAY(C2,1)) en cada archivo. Utiliza el formato General o número sin decimales, observa que 1 = domingo y 7 = sábado.
 Avanza al paso de análisis.
 
-Si quieres, sigue trabajando con los datos para familiarizarte mejor y, tal vez, incluso identificar nuevos enfoques para responder a las preguntas empresariales.
 
 ## Analizar
-Ahora que tus datos están almacenados adecuadamente y listos para el análisis, empieza a ponerlos en funcionamiento. Usa el siguiente mapa de ruta de caso práctico como guía:
-
-Mapa de ruta de caso práctico - Analizar
-
+Ahora que tus datos están almacenados adecuadamente y listos para el análisis, empieza a ponerlos en funcionamiento. 
 
 Preguntas orientativas
 ¿Cómo deberías organizar tus datos para realizar un análisis?
@@ -140,8 +83,6 @@ Consolida tus datos para que sean útiles y accesibles.
 Organiza y formatea tus datos.
 Realiza cálculos.
 Identifica tendencias y relaciones.
-Entregable
-Un resumen de tu análisis
 
 
 Seguir estos pasos para usar hojas de cálculo
@@ -179,9 +120,8 @@ Exporta un archivo de resumen para su posterior análisis.
 
 
 ## Compartir
-Como ya has realizado tu análisis y obtenido algunos conocimientos sobre tus datos, ahora crea las visualizaciones para compartir tus hallazgos. Moreno te recordó que los datos deben ser sofisticados y bien pulidos para poder comunicarse efectivamente al equipo ejecutivo. Usa el siguiente mapa de ruta de caso práctico como guía:
+Como ya has realizado tu análisis y obtenido algunos conocimientos sobre tus datos, ahora crea las visualizaciones para compartir tus hallazgos. Moreno te recordó que los datos deben ser sofisticados y bien pulidos para poder comunicarse efectivamente al equipo ejecutivo. 
 
-Mapa de ruta de caso práctico - Compartir
 Preguntas orientativas
 ¿Pudiste responder la pregunta en qué se diferencian los socios anuales y los ciclistas ocasionales de Cyclistic?
 ¿Qué historia cuentan tus datos?
@@ -194,41 +134,13 @@ Determina la mejor manera de compartir tus hallazgos.
 Crea visualizaciones de datos efectivas.
 Presenta tus hallazgos.
 Garantiza que tu trabajo sea accesible.
-Entregable
-Visualizaciones de respaldo y hallazgos clave
 
-
-Sigue estos pasos:
-Toma una hoja de papel y una lapicera y bosqueja algunas ideas sobre cómo visualizarás los datos.
-Cuando ya hayas elegido una forma visual, abre la herramienta que prefieras y crea tu visualización. Usa un software para presentaciones, por ejemplo,
-PowerPoint o Google Slides; tu programa de hojas de cálculo; Tableau o R.
-Crea tu visualización de datos, recuerda que se debe usar el contraste para captar la atención de la audiencia y dirigirla hacia los conceptos más importantes. Usa principios artísticos que incluyan el tamaño, el color y la forma.
-Garantiza un significado claro mediante el uso adecuado de elementos comunes, por ejemplo, títulos, subtítulos y etiquetas.
-Perfecciona la visualización de tus datos mediante una especial atención a los detalles.
 
 ## Actuar
-Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que Moreno te pidió que crearas, incluso las tres recomendaciones principales que se basan en tu análisis. Usa el siguiente mapa de ruta de caso práctico como guía:
-
-Mapa de ruta de caso práctico - Actuar
+Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que Moreno te pidió que crearas, incluso las tres recomendaciones principales que se basan en tu análisis.
 Preguntas orientativas
 ¿Cuál es tu conclusión en función de tu análisis?
 ¿Cómo podrían tu equipo y tu empresa aplicar tus conclusiones?
 ¿Qué próximos pasos tú o los interesados podrían adoptar en función de tus hallazgos?
 ¿Existen datos adicionales que podrías utilizar para ampliar tus hallazgos?
-Tareas clave
-Crea tu portfolio.
-Agrega tu caso práctico.
-Practica presentando tu caso práctico a un amigo o familiar.
-Entregable
-Las tres recomendaciones más importantes basadas en tu análisis
-
-
-Sigue estos pasos:
-
-
-Si todavía no tienes un portfolio, crea uno en línea. (Usa Crear un portfolio interactivo con Google Sites o Construir un portfolio con Google Sites.)
-Considera cómo quieres presentar tu caso práctico en tu portfolio.
-Carga o vincula los hallazgos de tu caso práctico a tu portfolio.
-Escribe un párrafo breve que describa el caso práctico, su proceso y tus hallazgos.
-Añade el párrafo para presentar tu caso práctico en tu portfolio.
 
