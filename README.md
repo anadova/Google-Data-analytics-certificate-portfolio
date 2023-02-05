@@ -249,5 +249,3 @@ Añade el párrafo para presentar tu caso práctico en tu portfolio.
 
 
 
-Actividad de cierre
-¡Felicitaciones por haber terminado el caso práctico del análisis de marketing de Bellabeat! Si quieres, completa uno de los otros casos prácticos para seguir desarrollando tu portfolio. También puedes usar los pasos preguntar, preparar, procesar, analizar, compartir y actuar de la hoja de ruta del caso práctico para crear un nuevo proyecto propio. ¡Mucha suerte con tu búsqueda laboral!
