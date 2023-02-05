@@ -3,57 +3,66 @@ A data analytics case study that includes R to clean, analyze and process the da
 As the Data Analytics course is in spanish, also is the case study. 
 
 
-Caso práctico 2: ¿Cómo puede hacer una empresa tecnología para el bienestar para tomar decisiones inteligentes?
+
+Caso práctico 1
+Caso práctico: ¿Cómo lograr el éxito rápido de un negocio de bicicletas compartidas?
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Introducción
-¡Bienvenido al caso práctico de análisis de datos de Bellabeat! En este caso práctico, realizarás muchas tareas del mundo real, típicas de un analista de datos júnior. Imaginarás que trabajas para Bellabeat, un fabricante de productos de alta tecnología orientados a la salud de la mujer, y conocerás a diferentes personajes y miembros del equipo. Para responder a las preguntas clave de la empresa, seguirás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. En este proceso, las tablas del mapa de ruta de caso práctico, incluidas las preguntas orientativas y las tareas clave, te ayudarán a mantenerte en el camino correcto.
+Bienvenido al caso práctico del análisis de bicicletas compartidas Cyclistic. En este caso práctico, realizarás muchas tareas del mundo real, típicas de un analista de datos júnior. Trabajarás para una empresa ficticia llamada Cyclistic y conocerás a diferentes personajes y miembros del equipo. Para responder a las preguntas clave de la empresa, seguirás los pasos del proceso de análisis de datos: preguntar, preparar, procesar, analizar, compartir y actuar. En este proceso, las tablas del mapa de ruta de caso práctico, incluidas las preguntas orientativas y las tareas clave, te ayudarán a mantenerte en el camino correcto.
 
 Al final de esta lección, tendrás un caso práctico listo para el portfolio. Descarga el paquete y consulta los detalles de este caso práctico en cualquier momento. Así, cuando empieces a buscar trabajo, tu caso práctico será una forma tangible de demostrar tus conocimientos y habilidades a los posibles empleadores.
 
+
 Escenario
-Eres un analista de datos júnior que trabaja en el equipo de analistas de marketing de Bellabeat, fabricante de productos de alta tecnología orientados a la salud de la mujer. Bellabeat es una empresa pequeña exitosa, pero tiene el potencial para convertirse en un actor más grande en el
+Eres un analista de datos júnior que trabaja en el equipo de analistas de marketing de Cyclistic, una empresa de bicicletas compartidas de Chicago. La directora de marketing cree que el éxito futuro de la empresa depende de maximizar la cantidad de membresías anuales. Por lo tanto, tu equipo quiere entender qué diferencias existen en el uso de las bicicletas Cyclistic entre los ciclistas ocasionales y los miembros anuales. A través de estos conocimientos, tu equipo diseñará una nueva estrategia de marketing para convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, antes de eso, los ejecutivos de Cyclistic deben aprobar tus recomendaciones; por eso, debes respaldar tu propuesta con una visión convincente de los datos y visualizaciones profesionales de los mismos.
 
 
-mercado global de dispositivos inteligentes. Urška Sršen, cofundadora y directora creativa de Bellabeat, cree que analizar los datos de actividad física de los dispositivos inteligentes podría desplegar nuevas oportunidades de negocio para la empresa. Te han pedido que te concentres en uno de los productos de Bellabeat y analices los datos de los dispositivos inteligentes para conocer el uso que hacen los consumidores de sus dispositivos inteligentes. Los hallazgos que descubras ayudarán a orientar la estrategia de marketing de la empresa. Presentarás tu análisis al equipo ejecutivo de Bellabeat junto con tus recomendaciones de alto nivel para la estrategia de marketing de Bellabeat.
+Personajes y equipos
+Cyclistic: Un programa de bicicletas compartidas que incluye 5,800 bicicletas y 600 estaciones. Cyclistic se destaca por ofrecer también bicicletas reclinadas, triciclos manuales y bicicletas de carga que ofrecen un uso más inclusivo de las bicicletas compartidas para las personas con discapacidad y los ciclistas que no pueden utilizar una bicicleta estándar de dos ruedas. La mayoría de los ciclistas eligen las bicicletas tradicionales, alrededor de un 8% de los ciclistas usan las opciones asistidas. Los usuarios de Cyclistic son más propensos a utilizar la bicicleta para recreación, pero alrededor del 30% la utiliza para ir al trabajo cada día.
+Lily Moreno: La directora de marketing y tu gerente. Moreno es responsable del desarrollo de campañas e iniciativas para promover el programa de bicicletas compartidas. Las campañas pueden incluir correo electrónico, redes sociales y otros canales.
+Equipo de análisis computacional de datos de marketing de Cyclistic: Un equipo de analistas de datos que se encargan de recopilar, analizar e informar datos que ayudan a conducir la estrategia de marketing de Cyclistic. Te incorporaste a este equipo hace seis meses y te has dedicado no solo a conocer la misión y las metas de negocios de Cyclistic, sino también a ver cómo puedes ayudar a Cyclistic a lograrlo, desde tu posición de analista de datos júnior.
+Equipo ejecutivo de Cyclistic: El equipo ejecutivo, sumamente detallista, decidirá si aprueba el programa de marketing recomendado.
 
-Personajes y productos
-Personajes
-Urška Sršen: Cofundadora y directora creativa de Bellabeat
-Sando Mur: Matemático y cofundador de Bellabeat, miembro clave del equipo ejecutivo de Bellabeat.
-Equipo de análisis computacional de datos de marketing de Bellabeat: Un equipo de analistas de datos que se encarga de recopilar, analizar e informar datos que ayudan a conducir la estrategia de marketing de Bellabeat. Te incorporaste a este equipo hace seis meses y te has dedicado a conocer la misión y las metas de negocios de Bellabeat, y a ver cómo puedes ayudar a la empresa a lograr estos objetivos desde tu lugar de analista de datos júnior.
-Productos
-Aplicación Bellabeat: La aplicación Bellabeat proporciona a los usuarios datos de salud relacionados con su actividad física, sueño, estrés, ciclo menstrual y hábitos de conciencia plena. Estos datos pueden ayudar a los usuarios a comprender sus hábitos actuales y adoptar decisiones saludables. La aplicación Bellabeat se conecta a su línea de productos de bienestar inteligentes.
-Leaf: Dispositivo de seguimiento clásico de bienestar de Bellabeat que se puede usar como pulsera, collar o clip. El dispositivo Leaf se conecta a la aplicación Bellabeat para hacer un seguimiento de la actividad física, el sueño y el estrés.
-Time: Este reloj de bienestar combina el aspecto intemporal de un reloj clásico con la tecnología inteligente para hacer el seguimiento de la actividad física, el sueño y el estrés del usuario. El reloj Time se conecta a la aplicación Bellabeat para proporcionar información sobre el bienestar diario.
-Spring: Es una botella de agua que hace el seguimiento diario del consumo de agua mediante el uso de tecnología inteligente para garantizar la hidratación adecuada a lo largo del día. La botella Spring se conecta a la aplicación Bellabeat para hacer el seguimiento de los niveles de hidratación.
-
-
-Membresía de Bellabeat: Bellabeat también ofrece a los usuarios un programa de membresía mediante suscripción. La membresía brinda a los usuarios un acceso 24/7 a una orientación totalmente personalizada sobre nutrición, actividad física, sueño, salud y belleza y conciencia plena según el estilo de vida y las metas del usuario.
 
 Acerca de la empresa
-Urška Sršen y Sando Mur fundaron Bellabeat, una empresa de alta tecnología que fabrica productos inteligentes focalizados en el cuidado de la salud. Sršen usó su experiencia como artista para desarrollar una tecnología con un bonito diseño que informará e inspirará a las mujeres de todo el mundo. Recopilar datos sobre la actividad física, el sueño, el estrés y la salud reproductiva le ha permitido a Bellabeat proporcionar a las mujeres conocimientos sobre su propia salud y sus hábitos. Desde su fundación, en 2013, Bellabeat creció a un ritmo vertiginoso y rápidamente se posicionó como empresa de bienestar impulsada por la tecnología para las mujeres.
+En 2016, Cyclistic lanzó una exitosa oferta de bicicletas compartidas. Desde entonces, el programa creció hasta alcanzar una flota de 5,824 bicicletas georreferenciadas y bloqueadas en una red de 692 estaciones en toda Chicago. Las bicicletas se pueden desbloquear desde una estación y devolverse en cualquier otra estación del sistema en cualquier momento.
 
-En 2016, Bellabeat ya había inaugurado oficinas en todo el mundo y lanzado múltiples productos. Los productos Bellabeat pasaron a estar disponibles en línea a través de un creciente número de comerciantes minoristas además del canal de comercio electrónico propio de Bellabeat en su sitio web. La empresa invirtió en medios publicitarios tradicionales, como radio, cartelería en la vía pública, prensa gráfica y televisión, pero se centra mayormente en el marketing digital. Bellabeat invierte todo el año en Google Search, mantiene activas las páginas de Facebook e Instagram e interactúa de manera constante con los consumidores en Twitter. A su vez, Bellabeat publica anuncios por video en YouTube y avisos publicitarios en Red de Display de Google para apoyar las campañas en fechas de marketing claves.
+Hasta ahora, la estrategia de marketing de Cyclistic se basaba en la construcción de un reconocimiento de marca general y en atraer a amplios segmentos de consumidores. Uno de los enfoques que ayudó a hacer esto posible fue la flexibilidad de sus planes de precios: pases de un solo viaje, pases de un día completo y membresías anuales. A los clientes que compran pases de un solo viaje o pases de un día completo se los llama ciclistas ocasionales. Los clientes que compran membresías anuales se llaman miembros de Cyclistic.
 
-Sršen sabe que el análisis de los datos de consumo disponibles de Bellabeat revelaría nuevas oportunidades de crecimiento. Ella le pidió al equipo de análisis computacional de datos de marketing que se concentrara en un producto Bellabeat y analizara los datos de uso de dispositivos inteligentes para conocer cómo las personas están usando sus dispositivos inteligentes. Después, con esta información, le gustaría recibir recomendaciones de alto nivel sobre cómo estas tendencias pueden colaborar en la estrategia de marketing de Bellabeat.
+Los analistas financieros de Cyclistic llegaron a la conclusión de que los miembros anuales son mucho más rentables que los ciclistas ocasionales. Aunque la flexibilidad de precios ayuda a Cyclistic a atraer más clientes, Moreno cree que maximizar el número de miembros anuales será clave para el crecimiento futuro. En lugar de crear una campaña de marketing que apunte a todos los clientes nuevos, Moreno cree que hay muchas posibilidades de convertir a los ciclistas ocasionales en miembros. Ella señala que los ciclistas ocasionales ya conocen el programa de Cyclistic y han elegido a Cyclistic para sus necesidades de movilidad.
+
+Moreno estableció una meta clara: Diseñar estrategias de marketing orientadas a convertir a los ciclistas ocasionales en miembros anuales. Sin embargo, para hacer eso, el equipo de analistas de marketing necesita entender mejor cómo difieren los miembros anuales y los ciclistas ocasionales, por qué los ciclistas ocasionales comprarían una membresía y cómo los medios digitales podrían afectar sus tácticas de marketing. Moreno y su equipo están interesados en analizar los datos históricos de viajes en bicicleta de Cyclistic para identificar tendencias.
 
 Preguntar
-Sršen te pide que analices los datos de uso de los dispositivos inteligentes para saber cómo usan los consumidores los dispositivos inteligentes que no son de Bellabeat. Después, quiere que selecciones un producto Bellabeat para aplicar estos conocimientos en tu presentación. Estas preguntas orientarán tu análisis:
+Tres preguntas guiarán el futuro programa de marketing:
+¿En qué se diferencian los socios anuales y los ciclistas ocasionales con respecto al uso de las bicicletas de Cyclistic?
+¿Por qué los ciclistas ocasionales comprarían membresías anuales de Cyclistic?
+¿Cómo puede usar Cyclistic los medios digitales para influenciar a los ciclistas ocasionales a convertirse en miembros?
 
 
 
-¿Cuáles son algunas tendencias de uso de los dispositivos inteligentes?
-¿Cómo se podrían aplicar estas tendencias a los clientes de Bellabeat?
-¿Cómo podrían ayudar estas tendencias a influir en la estrategia de marketing de Bellabeat?
+Moreno te asignó la primera pregunta por responder: ¿En qué se diferencian los socios anuales y los ciclistas ocasionales con respecto al uso de las bicicletas de Cyclistic?
 
 Crearás un informe con los siguientes entregables:
-Un resumen claro de la tarea empresarial
+Una instrucción clara de la tarea empresarial
 Una descripción de todas las fuentes de datos utilizadas
 Documentación de todas las limpiezas y manipulaciones de datos
 Un resumen de tu análisis
 Visualizaciones de respaldo y hallazgos clave
-Las tres recomendaciones de contenido de alto nivel basadas en tu análisis
+Las tres recomendaciones más importantes basadas en tu análisis
 
 Usa el siguiente mapa de ruta de caso práctico como guía. Nota: Completar este caso práctico en una semana es una buena meta.
 
@@ -71,16 +80,14 @@ Una instrucción clara de la tarea empresarial
 
 
 Preparar
-Sršen te alienta a que uses datos públicos que exploren los hábitos cotidianos de los usuarios de dispositivos inteligentes. Ella te señala un conjunto de datos específicos:
-Datos de seguimiento de actividad física de Fitbit (CC0: Dominio público, conjunto de datos disponibles a través de Mobius): Este conjunto de datos de Kaggle contiene el seguimiento de la actividad física personal en treinta usuarios de Fitbit. Treinta usuarios elegibles de Fitbit prestaron su consentimiento para el envío de datos personales de seguimiento que incluyen rendimiento de la actividad física en minutos, ritmo cardíaco y monitoreo del sueño. Incluye información sobre la actividad diaria, pasos y ritmo cardíaco que se puede usar para explorar los hábitos de los usuarios.
-Sršen te comenta que este conjunto de datos podría tener ciertas limitaciones y te alienta a considerar la posibilidad de agregar otros datos que te ayuden a resolver esas limitaciones a medida que profundices en el trabajo con los datos.
+Usarás los datos históricos de los viajes de Cyclistic para analizar e identificar tendencias. Descarga los últimos 12 meses de datos de viajes de Cyclistic  aquí. (Nota: Los conjuntos de datos tienen un nombre diferente porque Cyclistic es una empresa ficticia. A los fines de este caso práctico, los conjuntos de datos son apropiados y te permitirán responder las preguntas de la empresa. Los datos han sido proporcionados por Motivate International Inc. bajo esta licencia.) Estos son datos públicos que puedes usar para explorar cómo difieren los tipos de clientes que usan las bicicletas Cyclistic. Sin embargo, ten en cuenta que, por cuestiones de privacidad de los datos, se te prohíbe usar información de identificación personal de los ciclistas. Esto significa que no podrás conectar las compras de pases con los números de tarjetas de crédito para determinar si los ciclistas ocasionales viven en el área de servicio de Cyclistic o si compraron varios pases de un solo viaje.
 
 Ahora, prepara tus datos para el análisis usando el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Preparar
 Preguntas orientativas
-¿Dónde se almacenan tus datos?
-¿Cómo están organizados los datos? ¿Están en formato largo o ancho?
+¿Dónde se ubican tus datos?
+¿Cómo están organizados los datos?
 ¿Hay problemas con el sesgo o la credibilidad de estos datos? ¿Tus datos son confiables, originales, integrales, actuales y citados (ROCCC)?
 ¿Cómo estás abordando la autorización, la privacidad, la seguridad y la accesibilidad?
 ¿Cómo verificaste la integridad de los datos?
@@ -97,6 +104,7 @@ Ordena y filtra los datos.
 4. Determina la credibilidad de los datos.
 Entregable
 Una descripción de todas las fuentes de datos utilizadas
+
 
 
 Procesar
@@ -118,37 +126,18 @@ Entregable
 Documentación de todas las limpiezas y manipulaciones de datos
 
 
+
+
 Sigue estos pasos:
-
-
-Descarga el conjunto de datos.
+Descarga los últimos 12 meses de datos de viajes de Cyclistic.
 Descomprime los archivos.
-Crea una carpeta en tu escritorio o en Drive para alojar los archivos. Usa convenciones apropiadas de nomenclatura de archivos. Si necesitas hacer un repaso sobre las convenciones de nomenclatura de archivos, vuelve a ver el video “Todo con respecto a la nomenclatura de los archivos” o la lectura “Pautas de  organización” .
-Carga los datos a la herramienta que prefieras. Para repasar las distintas formas de hacerlo, siéntete libre de consultar cualquiera de los siguientes recursos sobre cómo empezar en las siguientes herramientas:
-
-Hojas de cálculo
-SQL
-R
-Importar datos desde hojas de cálculo: Este video del Curso 3 te guiará en los pasos que debes seguir para importar datos a tu hoja de cálculo. Esto es útil si deseas realizar la limpieza y el análisis de tus hojas de cálculo.
-Cargar un archivo CSV en BigQuery: Estas instrucciones detalladas te guiarán en cada paso del proceso de carga de tu archivo CSV en BigQuery para que puedas empezar a trabajar con tus datos en SQL.
-Conceptos básicos de la importación de datos: Esta lectura del Curso 7 repasará la importación de datos en R para que puedas empezar a limpiarlos y analizarlos. Si planeas usar R para tu caso práctico, este es un punto de partida útil.
-Características de la limpieza de datos en las hojas de cálculo: Este video del Curso 4 describe las funciones básicas de limpieza de datos en las hojas de cálculo; este es un excelente repaso si necesitas rever el tema.
-Limpieza de variables en cadena con SQL: Este video del Curso 4 abarca algunas técnicas de limpieza clave para datos en cadena en SQL.
-Limpieza con lo básico: Este video del Curso 7 te guiará a través de algunas funciones básicas de limpieza en R que necesitarás para procesar tus datos para el análisis.
-Más técnicas de limpieza de datos: Este video del Curso 4 abarca incluso más técnicas que puedes usar para limpiar tus datos y prepararlos para el análisis.
-Funciones avanzadas de limpieza de datos  parte 1 y parte 2: Estos videos tratan sobre funciones de limpieza más avanzadas y son excelentes si necesitas repasar el tema a medida que comienzas a trabajar de modo más preciso
-Transformación de datos: Este video del Curso 7 se aboca a la transformación de datos en R para que estén organizados y formateados y faciliten así el análisis.
-
-
-
-
-
-
-con tus datos.
-
-
-
-
+Crea una carpeta en tu escritorio o en Drive para alojar los archivos. Usa convenciones apropiadas de nomenclatura de archivos.
+Crea subcarpetas para archivos .CSV y .XLS o Sheets para tener una copia de los datos originales. Mueve los archivos descargados a la subcarpeta apropiada.
+Sigue estas instrucciones para Excel (a) o Google Sheets (b):
+Inicia Excel, abre cada archivo y elige Guardar como un archivo de Libro de Excel. Colócalo en la subcarpeta que creaste para archivos .XLS.
+Abre cada archivo .CSV en Google Sheets y guárdalo en la subcarpeta apropiada.
+Abre tu hoja de cálculo y crea una columna que se llame “ride_length”. Calcula la extensión de cada viaje restando la columna “started_at” de la columna “ended_at” (por ejemplo, =D2-C2) y usa el formato HH:MM:SS mediante Formato > Celdas > Hora > 37:30:55.
+Crea una columna llamada “day_of_week” y calcula el día de la semana en el que empezó cada viaje mediante el comando “WEEKDAY” (por ejemplo, =WEEKDAY(C2,1)) en cada archivo. Utiliza el formato General o número sin decimales, observa que 1 = domingo y 7 = sábado.
 Avanza al paso de análisis.
 
 Si quieres, sigue trabajando con los datos para familiarizarte mejor y, tal vez, incluso identificar nuevos enfoques para responder a las preguntas empresariales.
@@ -157,6 +146,8 @@ Analizar
 Ahora que tus datos están almacenados adecuadamente y listos para el análisis, empieza a ponerlos en funcionamiento. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Analizar
+
+
 Preguntas orientativas
 ¿Cómo deberías organizar tus datos para realizar un análisis?
 ¿Tus datos tienen el formato correcto?
@@ -168,39 +159,53 @@ Consolida tus datos para que sean útiles y accesibles.
 Organiza y formatea tus datos.
 Realiza cálculos.
 Identifica tendencias y relaciones.
-
-
-
-
 Entregable
 Un resumen de tu análisis
 
 
-Sigue estos pasos para usar SQL
-Aquí hay un script de muestra que puede ayudarte a hacer lo siguiente:
-Para usar el script de muestra, haz clic en este enlace y selecciona “Usar plantilla”.
+Seguir estos pasos para usar hojas de cálculo
+Abre tu aplicación de hojas de cálculo, luego completa los siguientes pasos:
+Cuando corresponda, haz que las columnas sean coherentes y combínalas en una sola hoja de trabajo.
+Limpia y transforma tus datos para prepararlos para el análisis.
+Realiza un análisis descriptivo.
+Ejecuta algunos cálculos en un archivo para tener una mejor idea de la disposición de los datos. Opciones:
+Calcular la media de ride_length
+Calcular el máximo de ride_length
+Calcular el modo de day_of_week
+Crear una tabla dinámica para calcular y visualizar los datos rápidamente. Opciones:
+Calcular el promedio de ride_length para miembros y para ciclistas ocasionales. Probar rows = member_casual; Values = Average
 
+
+of ride_length.
+Calcular el promedio de ride_length para usuarios por day_of_week. Probar columns = day_of_week; Rows = member_casual; Values = Average of ride_length.
+Calcular el número de viajes para usuarios por day_of_week sumando el recuento de trip_id a Values.
+Abrir otro archivo y realizar los mismos pasos de análisis descriptivo. Explorar diferentes temporadas para hacer algunas observaciones iniciales.
+Una vez que hayas trabajado durante algún tiempo con las hojas de cálculo individuales, fusiónalas en una vista de todo el año. Haz esto con la herramienta que hayas elegido para realizar tu análisis final, ya sea una hoja de cálculo, una base de datos y SQL o R Studio.
+Exporta un archivo de resumen para su posterior análisis.
+
+Sigue estos pasos para usar SQL
+Abre la herramienta SQL que prefieras, luego completa los siguientes pasos:
 Importa tus datos.
 Explora tus datos, quizás mirando el número total de filas, los valores distintos, el máximo, el mínimo o los valores medios.
-Cuando corresponda, usa las instrucciones JOIN para combinar tus respectivos datos en diferentes tablas según las necesidades de tus análisis.
+Cuando corresponda, usa las instrucciones JOIN para combinar tus respectivos datos en una tabla.
 Crea estadísticas de resumen.
 Investiga las tendencias interesantes y guarda esa información en una tabla.
 
-Para dar los primeros pasos en R
-Aquí hay un script de muestra que puede ayudarte a hacer lo siguiente:
-Empezar a importar tus datos.
-Explorar tus datos, recopilar y resumir estadísticas.
-Limpiar y transformar tus datos para prepararlos para el análisis.
-Crear algunas visualizaciones exploratorias iniciales.
+Sigue estos pasos para usar R
+Abre R Studio y usa este script para completar los siguientes pasos:
+Importa tus datos.
+Organiza las columnas y fusiónalas en un solo marco de datos.
+Limpia y añade datos para prepararlos para el análisis.
+Realiza un análisis descriptivo.
+Exporta un archivo de resumen para su posterior análisis.
 
 
 Compartir
-Una vez que hayas completado tu análisis, crea tus visualizaciones de datos. Las visualizaciones deben comunicar claramente tus conclusiones y recomendaciones de alto nivel. Usa el siguiente mapa de ruta de caso práctico como guía:
-
+Como ya has realizado tu análisis y obtenido algunos conocimientos sobre tus datos, ahora crea las visualizaciones para compartir tus hallazgos. Moreno te recordó que los datos deben ser sofisticados y bien pulidos para poder comunicarse efectivamente al equipo ejecutivo. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Compartir
 Preguntas orientativas
-¿Pudiste responder estas preguntas empresariales?
+¿Pudiste responder la pregunta en qué se diferencian los socios anuales y los ciclistas ocasionales de Cyclistic?
 ¿Qué historia cuentan tus datos?
 ¿De qué manera tus hallazgos se relacionan con tu pregunta original?
 ¿Cuál es tu audiencia? ¿Cuál es la mejor manera de comunicarte con ella?
@@ -217,14 +222,16 @@ Visualizaciones de respaldo y hallazgos clave
 
 Sigue estos pasos:
 Toma una hoja de papel y una lapicera y bosqueja algunas ideas sobre cómo visualizarás los datos.
-Cuando ya hayas elegido una forma visual, abre la herramienta que prefieras y crea tu visualización. Usa un software para presentaciones, por ejemplo, PowerPoint o Google Slides; tu programa de hojas de cálculo; Tableau o R.
+Cuando ya hayas elegido una forma visual, abre la herramienta que prefieras y crea tu visualización. Usa un software para presentaciones, por ejemplo,
+
+
+PowerPoint o Google Slides; tu programa de hojas de cálculo; Tableau o R.
 Crea tu visualización de datos, recuerda que se debe usar el contraste para captar la atención de la audiencia y dirigirla hacia los conceptos más importantes. Usa principios artísticos que incluyan el tamaño, el color y la forma.
 Garantiza un significado claro mediante el uso adecuado de elementos comunes, por ejemplo, títulos, subtítulos y etiquetas.
 Perfecciona la visualización de tus datos mediante una especial atención a los detalles.
 
-
 Actuar
-Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que te han pedido que crearas, incluso las tres recomendaciones de alto nivel que se basan en tu análisis. Usa el siguiente mapa de ruta de caso práctico como guía:
+Ahora que terminaste de crear tus visualizaciones, actúa en función de tus hallazgos. Prepara los entregables que Moreno te pidió que crearas, incluso las tres recomendaciones principales que se basan en tu análisis. Usa el siguiente mapa de ruta de caso práctico como guía:
 
 Mapa de ruta de caso práctico - Actuar
 Preguntas orientativas
@@ -237,15 +244,15 @@ Crea tu portfolio.
 Agrega tu caso práctico.
 Practica presentando tu caso práctico a un amigo o familiar.
 Entregable
-Tus conclusiones de alto nivel más importantes basadas en tu análisis
+Las tres recomendaciones más importantes basadas en tu análisis
 
 
 Sigue estos pasos:
+
+
 Si todavía no tienes un portfolio, crea uno en línea. (Usa Crear un portfolio interactivo con Google Sites o Construir un portfolio con Google Sites.)
 Considera cómo quieres presentar tu caso práctico en tu portfolio.
 Carga o vincula los hallazgos de tu caso práctico a tu portfolio.
 Escribe un párrafo breve que describa el caso práctico, su proceso y tus hallazgos.
 Añade el párrafo para presentar tu caso práctico en tu portfolio.
-
-
 
